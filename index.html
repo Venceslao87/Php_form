@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="source/style.css">
+    <title>Робоча форма</title>
+</head>
+<body>
+    <h2>Заповніть тестову форму</h2>
+    <form method=post action="script.php">
+        <label for="firstname">Ім'я:</label>
+        <input type="text" id="firstname" name="first_name"> </br>
+        <label for="surname">Прізвище:</label>
+        <input type="text" id="surname" name="second_name"></br>
+        <label for="surname">Стать:</label>
+        <input type="radio" name="sex" value="male">Чоловіча
+        <input type="radio" name="sex" value="female">Жіноча </br>
+        <label for="date">Дата народження:</label>
+        <input type="date" id="date" name="Birth_date"> </br>
+        <label for="email">Поштова скринька:</label>
+        <input type="email" id="email" name="email" ></br>
+        <label for="telefon">Телефон:</label>
+        <input type="tel" id="telefon" name="telefon" ></br>
+
+        <label for="about">Трохи про себе:</label>
+        <textarea  id="about" name="someabout"></textarea> </br>
+
+        <input type="submit" value="Надіслати" name="submit">
+    </form>
+</body>
+</html>
